@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz Navidad ❤️</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              christmasRed: "#b91c1c",
+              christmasGreen: "#166534",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+        background-image: url("https://img.freepik.com/free-photo/still-life-christmas-decoration-with-copy-space_23-2151868677.jpg?semt=ais_hybrid&w=740&q=80");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .textito{
+        font-family: "Almendra", serif;
+      }
+
+      .titulo{
+          font-family: "Mountains of Christmas", serif;
+      }
+    </style>
+  </head>
+
+  <body class="min-h-screen flex items-center justify-center px-4">
+    <div class="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl max-w-md w-full p-6 text-center">
+      <!-- Imagen -->
+      <div class="mb-6">
+        <img src="https://i.pinimg.com/474x/19/46/2f/19462ff1351544fb8e322ddcde91340c.jpg" class="w-full h-auto rounded-2xl shadow-md" />
+      </div>
+
+      <!-- Título -->
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-christmasRed mb-4 titulo">Feliz Navidad mi Lay 🎄</h1>
+
+      <!-- Frase -->
+      <p class="text-gray-700 text-base sm:text-lg leading-relaxed mb-8 textito">
+        Gracias por ser mi lugacito seguro y mi abatito favorito. Que esta Navidad nos encuentre juntos con amor, risas y muchos momentos por
+        compartir.
+      </p>
+
+      <!-- Footer -->
+      <div class="flex flex-col items-center gap-2">
+        <span class="text-gray-600 text-sm"> Con todo mi amor </span>
+
+        <span class="text-christmasRed text-xl"> Gon ❤️ </span>
+
+        <span class="text-gray-500 text-xs"> 26/12/2025 </span>
+      </div>
+    </div>
+  </body>
+</html>
